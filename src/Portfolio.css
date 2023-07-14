@@ -95,7 +95,7 @@
   background-color: rgb(72, 97, 126);
 }
 .Communication-link{
-  Display: flex;
+  display: flex;
   justify-content: space-between;
 }
  .Social-media{
