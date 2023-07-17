@@ -4,15 +4,15 @@ import "../Portfolio.css";
 
 const About = () => {
   return (
-    <div>
-      <div className="About">
-      <div>
+    <div className="About" >
+      <div className="About-details">
+      <div >
         <header>
           <h1>Hi! I'm Agnes Udoh</h1>
         </header>
         <section>
           <p>
-            I reside at Lagos, Nigeria. <br />
+            I reside in Lagos, Nigeria. <br />
             I'm currently a student at Stutern learning frontend development.
             <br />
             I build website using react and libraries. <br />

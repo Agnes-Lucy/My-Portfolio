@@ -1,28 +1,22 @@
 import ContactMe from "./Components/ContactMe";
 import Footer from "./Components/Footer";
-import Home from "./Components/Home";
-import Portfolio from "./Components/Portfolio";
-import { BrowserRouter, Routes, Route, NavLink } from "react-router-dom";
-import About from "./Components/About";
+import Home from "./Pages/Home";
+import Portfolio from "./Pages/Portfolio";
+import { BrowserRouter, Routes, Route} from "react-router-dom";
+import About from "./Pages/About"
+import Layout from "./Layout";
 
 function App() {
   return (
     <BrowserRouter>
       <div className="Body">
-        <header>
-          <nav className="Nav">
-            <NavLink to="/" id="Name">Home</NavLink>
-             <NavLink to="about">About</NavLink>
-             {/* <NavLink to="portfolio">Portfolio</NavLink> */}
-          </nav>
-        </header>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
-           {/* <Route path="portfolio" element={<Portfolio/>}/> */}
+          <Route path="/" element={<Layout/>}>
+            <Route index element={<Home/>}/>
+            {/* <Route path="/portfolio" element={<Portfolio />} /> */}
+            <Route path="about" element={<About />} />
+          </Route>
         </Routes>
-        <ContactMe />
-        <Footer />
       </div>
     </BrowserRouter>
   );

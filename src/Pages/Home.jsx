@@ -1,9 +1,6 @@
 import React from 'react'
-import Intro from './Intro'
-import Portfolio from './Portfolio'
-import ContactMe from './ContactMe'
-import Footer from './Footer'
-
+import Intro from '../Pages/Intro'
+import Portfolio from '../Pages/Portfolio'
 const Home = () => {
   return (
     <div>

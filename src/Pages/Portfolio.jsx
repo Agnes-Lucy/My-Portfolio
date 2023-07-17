@@ -14,7 +14,8 @@ const Portfolio = () => {
           <h2>Recent Projects</h2>
           <p>Here are some of my past projects</p>
         </header>
-        <section className="Portfolio-section1">
+        <main className="Portfolio-section1">
+        <section >
           <div className="card">
             <div>
               <img src={Monitor} alt="Monitor" className="monitor" />
@@ -105,7 +106,7 @@ const Portfolio = () => {
           <div className="card">
             <div>
               <img src={Monitor} alt="Monitor" className="monitor" />
-              <img src={Capture} alt="Filtering App" className="movies2" />
+              <img src={Capture} alt="Filtering App" className="Filtering-app" />
             </div>
             <div>
               <h2>Filtering Page</h2>
@@ -128,6 +129,7 @@ const Portfolio = () => {
             </div>
           </div>
         </section>
+        </main>
       </div>
     </>
   );
