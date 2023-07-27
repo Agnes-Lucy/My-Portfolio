@@ -32,6 +32,7 @@ const About = () => {
             <li>Git</li>
             <li>Formik</li>
           </ul>
+          <button> <a href="">Download Resume</a></button>
         </section>
 
         <section>
