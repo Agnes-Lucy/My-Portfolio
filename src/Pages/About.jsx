@@ -32,7 +32,7 @@ const About = () => {
             <li>Git</li>
             <li>Formik</li>
           </ul>
-          <button> <a href="">Download Resume</a></button>
+          <button> <a href="https://drive.google.com/file/d/1nvv2_ZbRqiGYRVEZRpO3vcTBDkbZHmCZ/view?usp=drivesdk">Download Resume</a></button>
         </section>
 
         <section>
