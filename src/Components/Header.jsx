@@ -1,8 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import { NavLink} from "react-router-dom";
-import Portfolio from "../Pages/Portfolio";
-import Home from "../Pages/Home";
+// import Portfolio from "../Pages/Portfolio";
+// import Home from "../Pages/Home";
 
 const Header = () => {
 
@@ -27,7 +27,7 @@ const Header = () => {
           </NavLink>
           <div className="Nav-content">
           <NavLink to="about" style={({isActive}) => isActive ? activeStyle : null}>About</NavLink>
-          <NavLink style={({isActive}) => isActive ? activeStyle : null} onClick={handleClick}>{portfolio}</NavLink>
+          {/* <NavLink style={({isActive}) => isActive ? activeStyle : null} onClick={handleClick}>{portfolio}</NavLink> */}
           </div>
         </nav>
       </header>
