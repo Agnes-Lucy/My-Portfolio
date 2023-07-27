@@ -11,10 +11,6 @@
   font-weight: 400;
 }
 
-.Nav{
-  background-color:rgba(91, 4, 4, 0.216);;
-}
-
 .Nav-wrapper{
   display: flex;
   align-items: center;
