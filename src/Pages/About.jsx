@@ -13,10 +13,8 @@ const About = () => {
         <section>
           <p>
             I reside in Lagos, Nigeria. <br />
-            I'm currently a student at Stutern learning frontend development.
-            <br />
             I build website using react and libraries. <br />
-            I'm proficient in HtML, CSS, JavaScript and React. <br />
+            I'm with HtML, CSS, JavaScript and React. <br />
             My first project in collaboration with five frontend team members
             was on a<a href="https://cash2go.netlify.app/"> loan app.</a>
           </p>

@@ -17,7 +17,6 @@ const ContactMe = () => {
             <a href='https://twitter.com/lucinda_lucee?t=l_je-FypVFekYrWfbLaUjw&s=08'><img src={Twitter} alt="Twitter" className='SM-icon'/></a>
             <a href='https://www.instagram.com/mzluciee/'><img src={Instagram} alt="Instagram" className='SM-icon' /></a>
             <a href="https://www.linkedin.com/in/agnes-udoh-075626189"><img src={Linkedin} alt="Github" className='SM-icon'/></a>
-            <a href="https://github.com/Agnes-Lucy"><img src={Github} alt="Github"className='SM-icon' /></a>
         </span>
     </div>    
     </>
